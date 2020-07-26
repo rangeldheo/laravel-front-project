@@ -1,1 +1,1 @@
-require('./bootstrap');
+require('../../vendor/components/jquery/jquery.min.js');
