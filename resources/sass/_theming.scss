@@ -1,0 +1,44 @@
+$primary:       #f5100e;
+$warning:       #fd8610;
+$danger:        #f5100e;
+$brown:         #b23c10;
+$light-gray:    #bebdbe;
+$mid-gray:      #272b2f;
+$gray:          #3d434b;
+$dark-gray:     #212529;
+$dark:          #07090a;
+
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,  
+    "warning":    $warning,
+    "danger":     $danger,
+    "brown":      $brown,
+    "light-gray": $light-gray,
+    "mid-gray":   $mid-gray,
+    "gray":       $gray,
+    "dark-gray":  $dark-gray,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+.dashboard{
+  height: 100vh
+}
+
+.main{
+  height: 100%;
+  border-radius: 25px;
+}
+
+.menu{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.extra{
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
