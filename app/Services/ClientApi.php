@@ -36,7 +36,7 @@ class ClientApi
      */
     public static function authorization()
     {
-        return 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhdmVsLWFwaS1wcm9qZWN0LnRlc3RcL2FwaVwvdjFcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNTk1ODI3ODA2LCJleHAiOjE1OTU4MzE0MDYsIm5iZiI6MTU5NTgyNzgwNiwianRpIjoiZUVyWnVIU3ZqbklwOHN1eiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.FZ6mXY8zcUeeKSAZ7fsOnzqcSoRxKSrx6spGbibyzz4';
+        return '';
     }
 
     /**
