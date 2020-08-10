@@ -13,4 +13,6 @@ const mix = require('laravel-mix');
 
 mix.scripts('vendor/components/jquery/jquery.min.js', 'public/js/jquery.min.js')
     .scripts('vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js', 'public/js/bootstrap.bundle.min.js')
+    .scripts('node_modules/sweetalert2/dist/sweetalert2.all.min.js', 'public/js/sweetalert2.all.min.js')
     .sass('resources/sass/app.scss', 'public/css/bootstrap.css');
+
